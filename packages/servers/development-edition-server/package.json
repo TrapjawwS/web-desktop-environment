@@ -3,7 +3,7 @@
   "version": "2.0.0-alpha.11",
   "scripts": {
     "prepublish": "pnpm run build",
-    "start": "nodemon .",
+    "start": "node .",
     "build": "tsc",
     "build:server": "pnpm run build",
     "fix-lint": "eslint --fix ./",
